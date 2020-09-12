@@ -13,7 +13,10 @@ def run():
   credit3 = float(input("Enter your course 3 credit: "))
   print(f"Grade point for course 3 is: {getGradePoint3 (grade3)}.")
   
- 
+  GPA = float(gradenum1 * credit1 + gradenum2 * credit2 + gradenum3 * credit3) / (credit1 + credit2 + credit3) 
+  print(f"GPA is {GPA}.")
+
+
 
   
 def getGradePoint1(grade1):
