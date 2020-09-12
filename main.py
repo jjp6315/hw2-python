@@ -48,15 +48,15 @@ def getGradePoint3(grade3):
   if grade3 == "A":
     return float(4.0)
   elif grade3 == "A-":
-    return (3.67)
+    return float(3.67)
   elif grade3 == "B+":
-    return (3.33)
+    return float(3.33)
   elif grade3 == "B":
     return float(3.0)
   elif grade3 == "B-":
-    return (2.67)
+    return float(2.67)
   elif grade3 == "C+":
-    return (2.33)
+    return float(2.33)
   elif grade3 == "C":
     return float(2.0)
   elif grade3 == "D":
