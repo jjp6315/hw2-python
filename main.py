@@ -2,68 +2,69 @@
  
 def getGradePoint1(grade1):
   if grade1 == "A":
-    return float(4.0)
+    g1 = 4.0  
   elif grade1 == "A-":
-    return float(3.67)
+    g1 = 3.6
   elif grade1 == "B+":
-    return float(3.33)
+    g1 = 3.3
   elif grade1 == "B":
-    return float(3.0)  
+    g1 = 3.0 
   elif grade1 == "B-":
-    return float(2.67)
+    g1 = 2.6
   elif grade1 == "C+":
-    return float(2.33)
+    g1 = 2.3
   elif grade1 == "C":
-    return float(2.0)  
+    g1 = 2.0 
   elif grade1 == "D":
-    return float(1.0)  
+    g1 = 1.0 
   else:
-    return float(0.0)
-
+    g1 = 0.0
+  return g1
 
 def getGradePoint2(grade2):
 
   if grade2 == "A":
-    return float(4.0)
+    g2 = 4.0  
   elif grade2 == "A-":
-    return float(3.67)
+    g2 = 3.6
   elif grade2 == "B+":
-    return float(3.33)
+    g2 = 3.3
   elif grade2 == "B":
-    return float(3.0)
+    g2 = 3.0  
   elif grade2 == "B-":
-    return float(2.67)
+    g2 = 2.6
   elif grade2 == "C+":
-    return float(2.33)
+    g2 = 2.3
   elif grade2 == "C":
-    return float(2.0)
+    g2 = 2.0  
   elif grade2 == "D":
-    return float(1.0)
+    g2 = 1.0  
   else:
-    return float(0.0)
- 
+    g2 = 0.0 
+  return g2
 
 def getGradePoint3(grade3):
 
   if grade3 == "A":
-    return float(4.0)
+    g3 = 4.0
   elif grade3 == "A-":
-    return float(3.67)
+    g3 = 3.67
   elif grade3 == "B+":
-    return float(3.33)
+    g3 = 3.3
   elif grade3 == "B":
-    return float(3.0)
+    g3 = 3.0  
   elif grade3 == "B-":
-    return float(2.67)
+    g3 = 2.6
   elif grade3 == "C+":
-    return float(2.33)
+    g3 = 2.3
   elif grade3 == "C":
-    return float(2.0)
+    g3 = 2.0  
   elif grade3 == "D":
-    return float(1.0)
+    g3 = 1.0  
   else:
-    return float(0.0)
-
+    g3 = 0.0
+  return g3
+  
 def run():
   grade1 = str(input("Enter your course 1 letter grade: "))
   credit1 = float(input("Enter your course 1 credit: "))
