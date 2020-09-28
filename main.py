@@ -4,15 +4,15 @@ def getGradePoint(grade):
   if grade == "A":
     return 4.0  
   elif grade == "A-":
-    return 3.6
+    return 3.67
   elif grade == "B+":
-    return 3.3
+    return 3.33
   elif grade == "B":
     return 3.0 
   elif grade == "B-":
-    return 2.6
+    return 2.67
   elif grade == "C+":
-    return 2.3
+    return 2.33
   elif grade == "C":
     return 2.0 
   elif grade == "D":
